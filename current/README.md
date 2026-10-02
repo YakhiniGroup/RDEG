@@ -147,6 +147,6 @@ are separate operations.
 | `code/plot_results.py`, `code/plot_timings.py` | Figure reproduction |
 | `code/verify.py` | Integrity and optional full reproduction |
 
-The historical notebook and utility file are separate implementations and are
-not dependencies of this directory. No new license is assigned by this update;
+The frozen baselines in `code/reference/` are required by the current algorithm,
+validation and timing comparisons. No new license is assigned by this update;
 existing applicable rights remain unchanged.

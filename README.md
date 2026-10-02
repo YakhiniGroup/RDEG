@@ -23,8 +23,8 @@ python current/code/validate_linear.py --small-only --out /tmp/rdeg-validation
 This update does not distribute expression matrices, sample-level inputs, the
 manuscript, or the private reproducibility archive. See
 [`current/DATA.md`](current/DATA.md) for source datasets and input requirements.
-The original `RDEG.ipynb`, `utils.py`, and historical `data/` directory remain
-unchanged for provenance; use `current/` for the revised methods.
+The repository contains the code for the current manuscript version. Earlier
+implementations and datasets remain available in Git history.
 
 The robustness criterion determines which original BH discoveries to retain and
 how many. A robustness certificate is not, by itself, an unconditional FDR
